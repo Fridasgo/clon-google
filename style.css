@@ -1,0 +1,168 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+figure {
+  width: 20px;
+  margin: 0px;
+  padding: 15px;
+}
+
+#cubo {
+  width: 38px;
+  fill: #444746;
+
+}
+
+#cubo:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+  border-radius: 50%;
+  padding: 1px;
+  border-color: transparent;
+}
+
+#matraz:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+  background-color: #f8f9fa92;
+  border: 1px solid #dadce0;
+  color: #262728;
+  border-radius: 50%;
+  padding: .5px;
+  border-color: transparent;
+}
+
+#perfil {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+#lupa {
+  fill: #9aa0a6;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {
+  display: inline-block;
+  padding: 12px;
+}
+
+ul {
+  padding: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  height: 69vh;
+}
+
+#logo {
+  padding-top: 9vh;
+  height: auto;
+  width: 35vh;
+}
+
+#buscador {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #dadce0;
+  align-items: stretch;
+  height: 46px;
+  width: 572px;
+  border-radius: 25px;
+  margin: 25px 0px;
+}
+
+#buscador:hover {
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+  border-color: transparent;
+}
+
+#buscador input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+}
+
+input {
+  flex-grow: 1;
+}
+
+article {
+  text-align: center;
+}
+
+footer {
+  background-color: #f2f2f2;
+}
+
+footer p {
+  padding: 10px;
+  margin: 0;
+  border-bottom: 1px solid #dadce0;
+}
+
+footer a {
+  font-size: 13px;
+  color: #202124;
+}
+
+header a {
+  font-size: 13px;
+  color: #1f1f1f;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  margin: 0px;
+}
+
+button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  padding: 0 28px;
+  height: 38px;
+  font-size: 14px;
+  color: #3c4043;
+  border-radius: 9px;
+  align-items: center;
+  margin: 11px 4px;
+}
+
+button:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+}
+
+nav{
+  margin top: 0px;}
